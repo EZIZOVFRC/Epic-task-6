@@ -1,0 +1,59 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+    .card{
+        background-color: rgba(235, 235, 235, 0.37);
+        width: 30%;
+        .buy{
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            span{
+                font-size: 24px;
+                color: gray;
+            }
+            button{
+                border: none;
+                padding: 10px 20px;
+                background-color: orange;
+                color: white;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+        }
+        img{
+width: 100%;
+        }
+        h5{
+            text-align: center;
+            font-size: 24px;
+            margin: 20px;
+        }
+        
+    }
+}
+.crd{
+    padding: 100px;
+    h2{
+        font-size: 48px;
+        text-align: center;
+        margin: 50px;
+    }
+}
+
+input{
+    margin-left: 130px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    &::placeholder{
+        color: white;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,38 @@
+#sc2{
+    padding: 100px;
+    h2{
+        text-align: center;
+    }
+    .sec3__fest{
+        width: 100%;
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        .fest__left{
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            justify-content: center;
+            display: flex;
+            border: 4px solid orange;
+            padding: 70px 30px;
+            font-size: 32px;
+            color: orange;
+        }
+        .fest__center{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            h3{
+                font-size: 32px;
+            }
+            p{
+                color:gray
+            }
+        }
+        img{
+            width: 30%;
+        }
+    }
+}
